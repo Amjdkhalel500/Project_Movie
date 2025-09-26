@@ -91,3 +91,52 @@
     background-color: #e5e216;
     color: #333;
 }
+#center {
+    padding: 250px 30px;
+}
+
+#center h2 {
+    color: #e5e216;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#center h1 {
+    font-size: 33px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#center h1 span {
+    font-size: 33px;
+    color: #e5e216;
+    font-weight: 600;
+}
+
+#div-p p {
+    background-color: #fff;
+    display: inline-block;
+    padding: 7px 11px;
+    font-weight: 800;
+    font-size: 8px;
+    cursor: pointer;
+}
+
+#center button {
+    background: none;
+    border: none;
+    padding: 9px;
+    font-size: 14px;
+    width: 130px;
+    color: #fff;
+    border-radius: 35px;
+    border: solid #e5e216 3px;
+    font-weight: 700;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#center button:hover {
+    background-color: #e5e216;
+    color: #333;
+}
