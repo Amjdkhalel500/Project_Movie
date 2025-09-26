@@ -190,3 +190,91 @@
 #title-r a:focus {
     border: solid #e5e216 2px;
 }
+
+#card {
+    margin-top: 20px;
+    margin-left: 30px;
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 439px;
+    border-radius: 14px;
+
+}
+
+#poster {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#poster img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: 0.5s;
+    border-radius: 12px;
+}
+
+#datalest {
+    position: absolute;
+    bottom: -100;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 1.5em 1.5em 2em;
+    backdrop-filter: bulr(16px);
+    background-color: #0000009c;
+    transition: 0.5s;
+
+}
+
+#card:hover #datalest {
+    bottom: 0;
+}
+
+#datalest h1 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#datalest p {
+    color: #fff;
+    font-size: 24px;
+
+}
+
+#div-star {
+    display: inline-block;
+}
+
+#div-star input {
+    display: none;
+
+}
+
+#div-star label {
+    float: right;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+
+}
+
+#div-star label::before {
+    content: '\2605';
+    font-size: 30px;
+}
+
+#div-star input:checked~label,
+#div-star label:hover,
+#div-star label:hover~label {
+    color: #ff7700;
+    transition: 0.3s;
+}
+
